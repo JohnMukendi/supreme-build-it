@@ -33,8 +33,6 @@ nav{
     font-weight: 550;
     display: flex;
     margin-right: 28%;
-    
-    
 }
 .nav-links a{
     color:white;
@@ -58,4 +56,17 @@ nav{
     object-fit: contain;
     filter: grayscale(100%);
     
+}
+/* carousel section */
+.carousel-sect{
+    padding: 5px 0px 10px 0px;
+}
+.swiper{
+    height: 310px;
+    width: 100%;
+
+}
+.swiper-slide img{
+    height: 100%;
+    width: 100%;
 }
