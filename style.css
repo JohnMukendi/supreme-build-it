@@ -70,3 +70,137 @@ nav{
     height: 100%;
     width: 100%;
 }
+/*company attributes section*/
+.company-atr-sect{
+    display: flex;
+    padding: 10px 10px;
+}
+.company-atr-div1{
+    background-color: var(--red);
+    padding: 20px;
+}
+.company-atr-icon-div{
+    display: block;
+    padding-bottom: 40px;
+    display: flex;
+}
+.company-atr-icon-div img{
+    padding: 0px 3px;
+}
+.company-atr-div1 p{
+    color: white;
+    font-weight: 600;
+    font-size: 32px;    
+}
+.company-atr-div2{
+    display: flex;
+    padding: 0px 15px;
+    
+}
+.company-atr-div2 div{
+    border: 1px solid var(--red);
+    width: 265px;
+    padding: 0px 2px 40px 2px;
+}
+.company-atr-banner{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.company-atr-icons2{
+    padding: 20px 10px;
+}
+.company-atr-div2 div p{
+    color: var(--red);
+    font-weight: 600;
+    font-size: 32px;
+    padding: 0px 10px;
+}
+/* product section */
+.product-sect{
+    margin: 20px;
+    
+}
+.product-sect h3{
+    text-align: center;
+    padding: 20px;
+    font-size:36px;
+}
+.product-sect-row{
+    display: flex;
+    width: 100%;
+}
+.products-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    
+}
+.products-div b{
+    margin-right: 190px;
+}
+.products-div:hover{
+    border: 1px solid red;
+    cursor: pointer;
+}
+.products-div-img{
+    height: 250px;
+    width: 45%;
+}
+.products-div-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* footer */
+footer{
+    background-color: var(--red);
+    color: white;
+    padding: 20px 40px;
+}
+.notice{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.site-contacts{
+    font-size: 14px;
+}
+.site-contacts p{
+    line-height: 1.5;
+}
+.fb-icon{
+    padding: 10px 0px;
+    margin-left: 45px
+}
+.fb-icon img{
+    filter: grayscale(0%);
+}
+.copyright{
+    text-align: center;
+}
+.cross{
+    cursor: pointer;
+    float: right;
+}
+.footer-logo{
+    width: 150px;
+    margin-left: 190px;
+    margin-top: 40px;
+    
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer-div1{
+    margin-right: 20px;
+    width: 60%;
+    
+}
+.footer-div2{
+    display: flex;
+    margin-left: 0px;
+    width: 40%;
+    justify-content: end;
+}
